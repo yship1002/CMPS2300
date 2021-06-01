@@ -1,0 +1,126 @@
+1) What is the Seek, Rotate, Transfer, and Total time for the above request (to read blocks 10,18)? You can get this information from the graphical window or your terminal.
+
+Seek time:40
+Rotate:275
+Transfer:60
+Total:375
+
+2) What is the Seek, Rotate, Transfer, and Total time for this request?
+(prompt> disk.py -a 7,30,8 -G)
+Seek time:160
+Rotate:545
+Transfer:90
+Total:795
+
+3) As you can see, this request is not efficient, what order should these blocks be processed in if we want to minimize the total time required?
+It should in the order of 7,8,30
+
+4) In this optimal order, what is the Seek, Rotate, Transfer, and Total time for this request?
+Seek time: 80
+Rotate:205
+Transfer:90
+Total:375
+
+5)
+Initial state
+
+inode bitmap 10000000
+inodes [d a:0 r:2][][][][][][][]
+data bitmap 10000000
+data [(.,0) (..,0)][][][][][][][]
+
+Mystery Operation
+
+inode bitmap 11000000
+inodes [d a:0 r:3][d a:1 r:2][][][][][][]
+data bitmap 11000000
+data [(.,0) (..,0) (s,1)][(.,1) (..,0)][][][][][][]
+
+Answer: mkdir("/s")
+
+6)
+Initial state
+
+inode bitmap 10000000
+inodes [d a:0 r:2][][][][][][][]
+data bitmap 10000000
+data [(.,0) (..,0)][][][][][][][]
+
+Mystery Operation
+
+inode bitmap 11000000
+inodes [d a:0 r:2][f a:-1 r:1][][][][][][]
+data bitmap 10000000
+data [(.,0) (..,0) (g,1)][][][][][][][]
+
+Answer: create("/g")
+
+7)
+Initial State
+
+inode bitmap 10000000
+inodes [d a:0 r:2][][][][][][][]
+data bitmap 10000000
+data [(.,0) (..,0)][][][][][][][]
+
+Next State
+
+inode bitmap 11000000
+inodes [d a:0 r:2][f a:-1 r:1][][][][][][]
+data bitmap 10000000
+data [(.,0) (..,0) (g,1)][][][][][][][]
+
+Mystery Operation
+
+inode bitmap 11000000
+inodes [d a:0 r:2][f a:1 r:1][][][][][][]
+data bitmap 11000000
+data [(.,0) (..,0) (g,1)][n][][][][][][]
+
+Answer: write 'n' to /g
+
+8)
+Initial state
+
+inode bitmap 10000000
+inodes [d a:0 r:2][][][][][][][]
+data bitmap 10000000
+data [(.,0) (..,0)][][][][][][][]
+
+creat("/h");
+
+inode bitmap 11000000
+inodes [d a:0 r:2][f a:-1 r:1][][][][][][]
+data bitmap 10000000
+data [(.,0) (..,0) (h,1)][][][][][][][]
+
+Write 'z' to "/h"
+
+Answer:
+inode bitmap 11000000
+inodes [d a:0 r:2][f a:1 r:1][][][][][][]
+data bitmap 11000000
+data [(.,0) (..,0) (h,1)][z][][][][][][]
+
+9)
+Initial state
+
+inode bitmap 10000000
+inodes [d a:0 r:2][][][][][][][]
+data bitmap 10000000
+data [(.,0) (..,0)][][][][][][][]
+
+mkdir("/t");
+
+inode bitmap 11000000
+inodes [d a:0 r:3][d a:1 r:2][][][][][][]
+data bitmap 11000000
+data [(.,0) (..,0) (t,1)][(.,1) (..,0)][][][][][][]
+
+creat("/t/e");
+
+Answer:
+inode bitmap 11100000
+inodes [d a:0 r:3][d a:1 r:3][f a:-1 r:1][][][][][]
+data bitmap 11000000
+data [(.,0) (..,0) (t,1)][(.,1) (..,0) (e,2)][][][][][][]

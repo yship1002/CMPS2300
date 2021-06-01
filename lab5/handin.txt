@@ -1,0 +1,66 @@
+(1)How many virtual pages can a virtual address space in this system have? How large is each page? Express your answer in KB, MB, or GB, whichever is most appropriate. 
+
+2^20 virtual pages
+Each page is 268.4354MB(2^28) large
+
+(2) How many physical frames does this computer have in physical memory?
+2^34/2^28=2^6
+
+
+(3) Write a detailed explanation for how the system establishes the corresponding physical location. Include the values for the VPN and OFFSET for this virtual address (express in hexadecimal).
+
+0x00002012D687=10 0000 0001 0010 1101 0110 1000 0111
+
+We know right 28bits are Offset which is 0000 0001 0010 1101 0110 1000 0111=12D687(base 16)
+And left 20 bits are VPN which is 10=2(base 16)
+System will find page number 2 and find the offset of 12D687 and concatenate them to find the physcial address.
+
+(4)
+0xB9A9
+0x49A9
+
+0x0532
+0x7532
+
+0x6421
+0x8421
+
+0x1B80
+0xBB80
+
+0xF300
+0x2300
+
+(5) Using the above addresses as a guide, provide an example of a virtual address (in hexadecimal) that results in a segmentation fault.
+0x4421
+
+
+(6) How should page-table size change as the address space grows?
+
+Page table size increases
+
+(7) As the page size grows?
+
+Page table size decreases
+
+(8) Why shouldn’t we just use really big pages in general?
+
+because if we allocate large page many of memory in that page will be wasted
+
+(9)Given an address space with 1KB pages, for each of the virtual addresses 0x00003a39 and 0x00001986, what is the VPN and OFFSET? Express your answers in binary.
+
+VPN is left 10 digits and offset is right 6 digits
+
+0x00003a39=0011101000111001
+VPN=0011101000 Offset=111001
+
+0x00001986=0001100110000110
+VPN=0001100110 Offset=000110
+
+(10)What happens as you increase the percentage of pages that are allocated in each address space?
+
+As the percentage of the pages that are allocated in each address space increase, the free space will decreases.
+
+(11) Can you find the limits of where the program doesn’t work anymore? For example, what happens if the address-space size is bigger than physical memory?
+
+You can't pass negative parameters into this program. If the address-space size is bigger than physical memory, the program will print error message.

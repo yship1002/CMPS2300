@@ -1,0 +1,8 @@
+1.What happens to these 5 clients? Do their connect()s fail, or time out, or succeed?
+Their connections succeed
+
+2.Do any other calls block?
+no they don't
+
+3.Now let the first client exit. What happens?
+The rest of clients are still connected.

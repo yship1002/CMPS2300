@@ -1,0 +1,11 @@
+PING baidu.com (39.156.69.79): 56 data bytes
+64 bytes from 39.156.69.79: icmp_seq=0 ttl=36 time=339.104 ms
+64 bytes from 39.156.69.79: icmp_seq=1 ttl=36 time=237.741 ms
+64 bytes from 39.156.69.79: icmp_seq=2 ttl=36 time=238.941 ms
+64 bytes from 39.156.69.79: icmp_seq=3 ttl=36 time=237.561 ms
+64 bytes from 39.156.69.79: icmp_seq=4 ttl=36 time=237.900 ms
+64 bytes from 39.156.69.79: icmp_seq=5 ttl=36 time=341.949 ms
+64 bytes from 39.156.69.79: icmp_seq=6 ttl=36 time=257.609 ms
+64 bytes from 39.156.69.79: icmp_seq=7 ttl=36 time=278.825 ms
+64 bytes from 39.156.69.79: icmp_seq=8 ttl=36 time=300.052 ms
+64 bytes from 39.156.69.79: icmp_seq=9 ttl=36 time=322.387 ms

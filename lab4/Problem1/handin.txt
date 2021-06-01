@@ -1,0 +1,36 @@
+
+First time Running!
+
+./script1 4 3 result.txt ~/documents/2021Spring/CMPS2300/lab4
+I am so good!
+This is the second variable: 3
+First number is bigger!
+The file/folder  result.txt exists!
+And this is a file!
+random_file.txt
+Second time Running!
+
+./script1 3 4 result.txt ~/documents/2021Spring/CMPS2300/lab4
+I am so good!
+This is the second variable: 4
+Second number is bigger!
+The file/folder  result.txt exists!
+And this is a file!
+random_file.txt
+Third time Running!
+
+./script1 4 3 result1.txt ~/documents/2021Spring/CMPS2300/lab4
+I am so good!
+This is the second variable: 3
+First number is bigger!
+This file/folder doesn't exists!
+random_file.txt
+Fourth time Running!
+
+./script1 4 3 result.txt ~/documents/2021Spring/CMPS2300/lab4
+I am so good!
+This is the second variable: 3
+First number is bigger!
+The file/folder  result.txt exists!
+And this is a file!
+random_file.txt

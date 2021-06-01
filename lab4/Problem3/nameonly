@@ -1,0 +1,14 @@
+#!/bin/bash
+#grab name
+cd ${1}
+for a in `ls`;do
+ 
+b=$(echo ${a} | cut -d _ -f 2)
+c=$(echo ${b} | cut -d _ -f 2)
+
+#Grab extension
+d=$(echo ${a} | cut -d _  -f 1)
+e=$(echo ${d} | cut -d . -f 2)
+combine="$c.$e"
+mv $a $combine
+done

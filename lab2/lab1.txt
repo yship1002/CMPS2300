@@ -1,0 +1,28 @@
+Jingzhi Yang LAB2
+
+Question 1: What is your prompt?
+
+Prompt: jyang10@New_Orleans ~ %
+
+
+Question 2:
+
+PWD: /Users/jyang10
+
+Question 3:
+
+Applications    Documents    Library        Music        Public
+Desktop        Downloads    Movies        Pictures
+
+Question 4:
+
+PWD: /Users/jyang10/cmps2300
+
+Question 5:
+
+mv lab1.txt ~/cmps2300
+
+Question 6:
+
+* gives you the value of the variable this pointer pointing to
+& gives you the memory address of a variable

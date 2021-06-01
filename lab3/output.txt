@@ -1,0 +1,280 @@
+This is the start of the program!
+This is the parent process!
+Current a value: 110
+Finally a value is: 110
+This is child process running!
+Printed by Child: 
+This process is done!
+This is the parent process running!
+This process is done!
+This is the parent process running!
+This process is done!
+This is child plsrocess running!
+This process is done!
+This is the parent process running!
+This process is done!
+This is the end of the program!
+This is the start of the program!
+This is the parent process!
+Current a value: 110
+Finally a value is: 110
+This is the parent process running!
+Printed by Parent: This is such a beautiful day in New Orleans!
+
+This process is done!
+This is the parent process running!
+This process is done!
+This is the parent process running!
+This process is done!
+This is child plsrocess running!
+This process is done!
+This is the parent process running!
+This process is done!
+This is the end of the program!
+This is the start of the program!
+This is the parent process!
+Current a value: 110
+Finally a value is: 110
+This is child process running!
+Printed by Child: 
+This process is done!
+This is the parent process running!
+This process is done!
+This is child process running!
+This is what is returned from wait in child process: -1
+This process is done!
+This is child plsrocess running!
+This process is done!
+This is the parent process running!
+This process is done!
+This is the end of the program!
+This is the start of the program!
+This is the parent process!
+Current a value: 110
+Finally a value is: 110
+This is the parent process running!
+Printed by Parent: This is such a beautiful day in New Orleans!
+
+This process is done!
+This is the parent process running!
+This process is done!
+This is child process running!
+This is what is returned from wait in child process: -1
+This process is done!
+This is child plsrocess running!
+This process is done!
+This is the parent process running!
+This process is done!
+This is the end of the program!
+This is the start of the program!
+This is the a value in child process: 100
+I change a value to 90!
+Finally a value is: 90
+This is the parent process running!
+Printed by Parent: This is such a beautiful day in New Orleans!
+
+This process is done!
+This is the parent process running!
+This process is done!
+This is the parent process running!
+This process is done!
+This is child plsrocess running!
+This process is done!
+This is the parent process running!
+This process is done!
+This is the end of the program!
+This is the start of the program!
+This is the a value in child process: 100
+I change a value to 90!
+Finally a value is: 90
+This is child process running!
+Printed by Child: 
+This process is done!
+This is the parent process running!
+This process is done!
+This is the parent process running!
+This process is done!
+This is child plsrocess running!
+This process is done!
+This is the parent process running!
+This process is done!
+This is the end of the program!
+This is the start of the program!
+This is the a value in child process: 100
+I change a value to 90!
+Finally a value is: 90
+This is the parent process running!
+Printed by Parent: This is such a beautiful day in New Orleans!
+
+This process is done!
+This is the parent process running!
+This process is done!
+This is child process running!
+This is what is returned from wait in child process: -1
+This process is done!
+This is child plsrocess running!
+This process is done!
+This is the parent process running!
+This process is done!
+This is the end of the program!
+This is the start of the program!
+This is the a value in child process: 100
+I change a value to 90!
+Finally a value is: 90
+This is child process running!
+Printed by Child: 
+This process is done!
+This is the parent process running!
+This process is done!
+This is child process running!
+This is what is returned from wait in child process: -1
+This process is done!
+This is child plsrocess running!
+This process is done!
+This is the parent process running!
+This process is done!
+This is the end of the program!
+This is the start of the program!
+This is the parent process!
+Current a value: 110
+Finally a value is: 110
+This is child process running!
+Printed by Child: 
+This process is done!
+This is the parent process running!
+This process is done!
+This is the parent process running!
+This process is done!
+This is the parent process running!
+I am the parent of 58291
+This process is done!
+This is the parent process running!
+This process is done!
+This is the end of the program!
+This is the start of the program!
+This is the parent process!
+Current a value: 110
+Finally a value is: 110
+This is the parent process running!
+Printed by Parent: This is such a beautiful day in New Orleans!
+
+This process is done!
+This is the parent process running!
+This process is done!
+This is the parent process running!
+This process is done!
+This is the parent process running!
+I am the parent of 58292
+This process is done!
+This is the parent process running!
+This process is done!
+This is the end of the program!
+This is the start of the program!
+This is the parent process!
+Current a value: 110
+Finally a value is: 110
+This is child process running!
+Printed by Child: 
+This process is done!
+This is the parent process running!
+This process is done!
+This is child process running!
+This is what is returned from wait in child process: -1
+This process is done!
+This is the parent process running!
+I am the parent of 58293
+This process is done!
+This is the parent process running!
+This process is done!
+This is the end of the program!
+This is the start of the program!
+This is the a value in child process: 100
+I change a value to 90!
+Finally a value is: 90
+This is the parent process running!
+Printed by Parent: This is such a beautiful day in New Orleans!
+
+This process is done!
+This is the parent process running!
+This process is done!
+This is the parent process running!
+This process is done!
+This is the parent process running!
+I am the parent of 58295
+This process is done!
+This is the parent process running!
+This process is done!
+This is the end of the program!
+This is the start of the program!
+This is the parent process!
+Current a value: 110
+Finally a value is: 110
+This is the parent process running!
+Printed by Parent: This is such a beautiful day in New Orleans!
+
+This process is done!
+This is the parent process running!
+This process is done!
+This is child process running!
+This is what is returned from wait in child process: -1
+This process is done!
+This is the parent process running!
+I am the parent of 58294
+This process is done!
+This is the parent process running!
+This process is done!
+This is the end of the program!
+This is the start of the program!
+This is the a value in child process: 100
+I change a value to 90!
+Finally a value is: 90
+This is child process running!
+Printed by Child: 
+This process is done!
+This is the parent process running!
+This process is done!
+This is the parent process running!
+This process is done!
+This is the parent process running!
+I am the parent of 58296
+This process is done!
+This is the parent process running!
+This process is done!
+This is the end of the program!
+This is the start of the program!
+This is the a value in child process: 100
+I change a value to 90!
+Finally a value is: 90
+This is child process running!
+Printed by Child: 
+This process is done!
+This is the parent process running!
+This process is done!
+This is child process running!
+This is what is returned from wait in child process: -1
+This process is done!
+This is the parent process running!
+I am the parent of 58298
+This process is done!
+This is the parent process running!
+This process is done!
+This is the end of the program!
+This is the start of the program!
+This is the a value in child process: 100
+I change a value to 90!
+Finally a value is: 90
+This is the parent process running!
+Printed by Parent: This is such a beautiful day in New Orleans!
+
+This process is done!
+This is the parent process running!
+This process is done!
+This is child process running!
+This is what is returned from wait in child process: -1
+This process is done!
+This is the parent process running!
+I am the parent of 58297
+This process is done!
+This is the parent process running!
+This process is done!
+This is the end of the program!

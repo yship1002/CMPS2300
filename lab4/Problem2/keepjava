@@ -1,0 +1,4 @@
+#!/bin/bash
+arg1=${1}
+cd $arg1
+find . -not -name "*.java" -delete

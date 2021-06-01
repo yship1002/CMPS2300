@@ -1,0 +1,31 @@
+#!/bin/bash
+
+#Erase handin.txt
+echo "" > handin.txt
+#First time Running!
+
+echo "First time Running!" >> handin.txt
+echo "" >> handin.txt
+echo "./script1 4 3 result.txt ~/documents/2021Spring/CMPS2300/lab4" >> handin.txt
+bash ./script1 4 3 result.txt ~/documents/2021Spring/CMPS2300/lab4 >> handin.txt
+
+#Second time Running!
+
+echo "Second time Running!" >> handin.txt
+echo "" >> handin.txt
+echo "./script1 3 4 result.txt ~/documents/2021Spring/CMPS2300/lab4" >> handin.txt
+bash ./script1 3 4 result.txt ~/documents/2021Spring/CMPS2300/lab4 >> handin.txt
+
+#Third time Running!
+
+echo "Third time Running!" >> handin.txt
+echo "" >> handin.txt
+echo "./script1 4 3 result1.txt ~/documents/2021Spring/CMPS2300/lab4" >> handin.txt
+bash ./script1 4 3 result1.txt ~/documents/2021Spring/CMPS2300/lab4 >> handin.txt
+
+#Fourth time Running!
+
+echo "Fourth time Running!" >> handin.txt
+echo "" >> handin.txt
+echo "./script1 4 3 result.txt ~/documents/2021Spring/CMPS2300/lab4" >> handin.txt
+bash ./script1 4 3 result.txt ~/documents/2021Spring/CMPS2300/lab4 >>handin.txt

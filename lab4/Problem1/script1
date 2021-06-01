@@ -1,0 +1,55 @@
+#!/bin/bash
+#Print line to terminal window
+
+echo I am so good!
+
+#Print line to result.txt
+echo I am so good! >> result.txt
+
+# You need input 4 arguments. 1 and 2 should be numbers
+# 3 should be a file name and 4 should be a folder name
+
+arg1=${1}
+arg2=${2}
+arg3=${3}
+arg4=${4}
+echo This is the second variable: "$arg2"
+
+#Check which number is bigger
+
+if [[ $arg1 > $arg2 ]]; then
+  echo "First number is bigger!"
+elif [[ $arg1 < $arg2 ]]; then
+  echo "Second number is bigger!"
+else
+    echo "First number and the second number are equal!"
+fi
+
+
+#Check if file\folder exists and if exist it will tell you whether it is a file or not
+
+if [[ -e $arg3 ]]; then
+    echo "The file/folder  $arg3 exists!"
+    if [[ -f $arg3 ]]; then
+        echo "And this is a file!"
+    else
+        echo "And this is a directory!"
+    fi
+else
+    echo "This file/folder doesn't exists!"
+fi
+
+#Search all txt files in current directory
+cd ${4}
+for file in `ls *.txt`; do
+    echo ${file}
+done
+
+
+
+
+
+
+
+
+exit
